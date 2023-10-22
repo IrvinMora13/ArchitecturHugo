@@ -1,0 +1,26 @@
+.hWrapper {
+    background: black;
+    color: white;
+}
+
+.hContainer {
+    justify-content: space-between;
+    color: rgb(255, 255, 255);
+    padding-top: 1rem;
+}
+
+.hMenu {
+    gap: 2rem;
+}
+
+.hMenu>*:hover {
+    cursor: pointer;
+}
+
+a {
+    color: inherit;
+}
+
+a:visited {
+    color: inherit;
+}
