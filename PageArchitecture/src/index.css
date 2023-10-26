@@ -1,9 +1,21 @@
+:root {
+  --primary: #1f3e72;
+  --secondary: rgba(255, 255, 255, 0.78);
+  --black: #131110;
+  --shadow: 0px 23px 21px -8px
+}
+
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
   font-family: "Poppins", sans-serif;
   scroll-behavior: smooth;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
 }
 
 .flexCenter {
@@ -14,7 +26,61 @@
   flex-wrap: wrap;
 }
 
+.flexColCenter {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.flexColStart {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.flexColStart {
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.flexStart {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.flexEnd {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+.primaryText {
+  color: #1f3e72;
+  font-weight: bold;
+  font-size: 2rem;
+}
+
+.secondaryText {
+  color: rgb(140, 139, 139);
+  font-size: 0.9rem;
+}
+
+.orangeText {
+  color: orange;
+  font-size: 1.5rem;
+  font-weight: 600;
+}
+
+
 .paddings {
+  justify-content: space-between;
+  align-items: flex-end;
+  display: flex;
   padding: 1.5rem;
 }
 

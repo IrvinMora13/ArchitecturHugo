@@ -1,0 +1,57 @@
+.heroWrapper {
+    color: white;
+    position: relative;
+    padding-bottom: 2rem;
+    background-color: black;
+}
+
+.heroContainer {
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+/*Texto de la izquierda*/
+.heroLeft {
+    flex: 1;
+}
+
+.heroRight {
+    flex: 1;
+}
+
+.heroTitle {
+    position: relative;
+    z-index: 1;
+}
+
+.heroTitle>h1 {
+    font-weight: 600;
+    font-size: 3.8rem;
+    line-height: 4rem;
+}
+
+/*Imagen a la derecha*/
+.imgContainer {
+    overflow: hidden;
+    height: 35rem;
+    width: 30rem;
+    border-radius: 15rem 15rem 0 0;
+    border: 8px solid rgba(255, 255, 255, 0.1)2;
+
+}
+
+.imgContainer>img {
+    width: 100%;
+    height: 100%;
+}
+
+.orangeCircle {
+    height: 4rem;
+    width: 4rem;
+    background-color: orange;
+    border-radius: 999px;
+    position: absolute;
+    right: 25%;
+    top: -10%;
+    z-index: -1;
+}

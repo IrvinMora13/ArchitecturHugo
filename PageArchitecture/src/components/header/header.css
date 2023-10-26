@@ -14,7 +14,7 @@
   gap: 2rem;
 }
 
-.hMenu > *:hover {
+.hMenu>*:hover {
   cursor: pointer;
 }
 
