@@ -24,3 +24,9 @@ a {
 a:visited {
   color: inherit;
 }
+
+.paddingsHeader{
+  justify-content: space-between !important;
+  align-items: flex-end;
+  display: flex;
+}

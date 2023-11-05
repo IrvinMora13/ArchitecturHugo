@@ -16,8 +16,8 @@ const Hero = () => {
                         </h1>
                     </div>
                     <div className='heroDes flexColStart'>
-<span className='secondaryText'>Somos una empresa mexicana dedicada a la construccion de proyectos personales como comerciales.</span>
-<span className='secondaryText'>Incluimos el total desarrollo de su proyecto desde diseño hasta construccion</span>
+<span className='description'>Somos una empresa mexicana dedicada a la construccion de proyectos personales como comerciales.</span>
+<span className='description'>Incluimos el total desarrollo de su proyecto desde diseño hasta construccion</span>
                     </div>
                     <div className='flexStart buttonNav'>
                         <button className="button">Proyectos</button>

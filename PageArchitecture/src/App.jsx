@@ -2,6 +2,7 @@ import Header from './components/header/Header';
 import Hero from './components/hero/Hero';
 import Proyects from './components/proyects/Proyects';
 import "./App.css"
+
 function App() {
   return (
     <div className="App">

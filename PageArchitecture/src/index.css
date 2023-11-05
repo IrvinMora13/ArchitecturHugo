@@ -40,11 +40,11 @@ a {
   flex-direction: column;
 }
 
-.flexColStart {
+.flexColEnd{
   display: flex;
   align-items: flex-end;
-  justify-content: center;
   flex-direction: column;
+  justify-content: center;
 }
 
 .flexStart {
@@ -66,7 +66,7 @@ a {
 }
 
 .secondaryText {
-  color: rgb(255, 255, 255);
+  color: rgb(1, 1, 1);
   font-size: 1rem;
 }
 
@@ -74,13 +74,14 @@ a {
   color: orange;
   font-size: 1.5rem;
   font-weight: 600;
+  text-align: left;
 }
 
 
 .paddings {
-  justify-content: space-between;
+  /*justify-content: space-between;
   align-items: flex-end;
-  display: flex;
+  display: flex;*/
   padding: 1.5rem;
 }
 

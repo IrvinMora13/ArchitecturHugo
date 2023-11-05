@@ -5,7 +5,7 @@ import Logo from "../../assets/Logo.png";
 const Header = () => {
     return (
         <section className="hWrapper">
-            <div className="flexCenter paddings innerWidth hContainer">
+            <div className="flexCenter paddings innerWidth hContainer paddingsHeader">
                 <img src={Logo} alt="logo" width={40} />
                 <div className="flexCenter hMenu">
                     <a href="">Inicio</a>
