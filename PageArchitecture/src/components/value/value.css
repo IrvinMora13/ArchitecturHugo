@@ -17,3 +17,43 @@
 .vRight{
     gap: 0.5em;
 }
+
+.accordion{
+    margin-top: 2rem;
+    border: none;
+}
+
+.accordionItem{
+    background: white;
+    border: 0.8px solid rgba(128, 128, 128, 0.143);
+    overflow: hidden;
+    border-radius: 8px;
+    margin-bottom: 20px;
+}
+
+.accordionItem.expanded{
+    box-shadow: var(#1f3e72);
+    border-radius: 6px;
+}
+
+.accordionButton{
+    background: white;
+    padding: 1rem;
+    justify-content: space-between !important;
+    cursor: pointer;
+    width: 100%;
+}
+
+.icon{
+    padding: 10px;
+    background: #eeeeff;
+    border-radius: 5px;
+}
+
+.icon svg{
+    fill: blue;
+}
+
+.accordionButton .primaryText{
+    font-size: 1.1rem;
+}
