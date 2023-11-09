@@ -1,0 +1,18 @@
+.App{
+    position: relative;
+    overflow-x: clip;
+}
+
+.App>:nth-child(1){
+    background: black;
+    position: relative;
+}
+
+.whiteGradient{
+    position: absolute;
+    background: rgba(255, 255, 255, 0.522);
+    width: 20rem;
+    height: 20rem;
+    filter: blur(100px);    /*Difuminado*/
+    border-radius: 100px;
+}
