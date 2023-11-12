@@ -7,22 +7,22 @@
     {
         "name": "Proyecto 2",
         "detail": "Descripcion del proyecto 2",
-        "image" : "./P1.jpg" 
+        "image" : "./cement.jpg" 
     },
     {
         "name": "Proyecto 3",
         "detail": "Descripcion del proyecto 3",
-        "image" : "./P1.jpg" 
+        "image" : "./construction.jpg" 
     },
     {
         "name": "Proyecto 4",
         "detail": "Descripcion del proyecto 4",
-        "image" : "./P1.jpg"
+        "image" : "./site.jpg"
     },
     {
         "name": "Proyecto 5",
         "detail": "Descripcion del proyecto 5",
-        "image" : "./P1.jpg" 
+        "image" : "./building.jpg" 
     },
     {
         "name": "Proyecto 6",

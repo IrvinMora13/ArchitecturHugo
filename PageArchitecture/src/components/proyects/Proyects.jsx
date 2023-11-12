@@ -22,7 +22,7 @@ const Proyects = () => {
                     {data.map((card,i)=>(
                             <SwiperSlide key={i}>
                                 <div className="pCard flexColStart">
-                                    <img src={card.image} alt="home" />
+                                    <img src={card.image} alt="home" className="pCard" />
                                     <span className="secondaryText pName">
                                         <span className="primaryText">
                                         {card.name}

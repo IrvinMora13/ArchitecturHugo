@@ -30,7 +30,7 @@ const Hero = () => {
                 </div>
                 <div className="flexCenter heroRight">
                     <div className="imgContainer">
-                        <img src={imgFondo} alt='' />
+                        <img src="./departments.jpg" alt='' />
                     </div>
                 </div>
             </div>
